@@ -1,0 +1,28 @@
+spring:
+  config:
+    activate:
+      on-profile: local
+
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        format_sql: true
+    open-in-view: false
+
+# Base64 인코딩된 dummy key. (실서버에서는 secret을 프로필마다 override)
+jwt:
+  secret: dGVtcG9yYXJ5LXNlY3JldC1rZXktZm9yLWxvY2FsLWRldg==
+
+redis:
+  host: localhost
+  port: 6379
+
+
