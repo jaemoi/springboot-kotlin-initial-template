@@ -14,14 +14,6 @@ This project includes the essential building blocks for real-world backend servi
 
 You can run this project immediately, then customize the package name and DB settings to fit your service.
 
-📦 Project Structure
-springboot_initial_setup/
- ├── api/               # Controllers, Request/Response DTOs
- ├── application/       # Services, business logic
- ├── batch/ (optional)  # Batch module
- ├── build.gradle.kts
- ├── settings.gradle.kts
- └── ...
 
 🔧 Required Customization Before Use
 
